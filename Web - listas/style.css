@@ -1,0 +1,41 @@
+*{
+   margin: 0;
+   box-sizing: border-box;
+}
+
+
+
+
+body{
+    background-color: lightblue;
+}
+
+ul{  
+letter-spacing: 50%;
+}
+
+ol{
+border-style: groove;
+width: 60%;
+
+}
+
+li{
+    width: 60%;
+}
+
+#celdaD{
+    color: red;
+}
+
+#textoB{
+    color: green;
+}
+
+.listaRomanos{
+    list-style-type: upper-roman;
+}
+
+#listaAzul{
+    color: blue;
+}
