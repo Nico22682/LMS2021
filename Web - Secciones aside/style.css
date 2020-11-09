@@ -11,6 +11,7 @@ nav{
 
 header{
     height: 50px;
+    border-style: solid;
 }
 
 aside{
@@ -28,9 +29,83 @@ main{
     display: inline-block;
     float: right;
     overflow: auto;
+    padding: 3px;
 }
 
 footer{
     height: 50px;
     clear: both;
+    border-style: solid;
 }
+
+aside > a{
+    display: block;
+    width: 80%;
+    background-color: skyblue;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 5px 3px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    border-color: skyblue;
+}
+
+aside > a:hover{
+    border-color: black;
+}
+
+aside > a:active{
+    color: white;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+main > section{
+margin-bottom: 50px;
+border-bottom-style: solid;
+}
+
+section > h1{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: lightseagreen;
+    padding: 5px;
+}
+
+article{
+margin-bottom: 20px;
+}
+
+article > h2{
+
+}
+
+article > video,article > iframe{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+article > audio{
+    display: block;
+    margin-left: 5%;
+}
+
+article > p{
+    text-align: end;
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+
+
+
+
